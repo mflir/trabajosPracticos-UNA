@@ -1,0 +1,107 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	text-align: center;
+}
+header{
+	height: 300px;
+	width: 100%;
+	/*background-color: #BBDEFB;*/
+	background-image: url("../img/LG5.png");
+	background-repeat: no-repeat;
+	border: 1px black solid;
+	margin-bottom: 1px;
+}
+
+nav{
+	height: 50px;
+	width: 100%;
+	border: 1px black solid;
+	background-color: #FFE082;
+	margin-bottom: 1px;
+}
+
+.navUno{
+	float: right;
+	margin: 5px;
+	padding: 5px;
+	height: 40px;
+}
+
+a{
+	text-decoration: none;
+}
+
+article{
+	height: 450px;
+	width: 100%;
+	background: #FFD54F;
+	margin-bottom: 1px;
+	border: 1px black solid;
+}
+
+.contenido{
+	margin: 30px;
+}
+
+.biografia{
+	padding:10px;
+	margin: 20px;
+	text-align: left; 
+}
+.retrato{
+	float: left;
+	padding: 5px;
+}
+
+section{
+	height: 450px;
+	width: 100%;
+	background: #FFCA28;
+	margin-bottom: 1px;
+	border: 1px black solid;
+}
+
+.peli{
+	width: 32%;
+	height: 345px;
+	background-color: pink;
+	border: 1px black solid;
+}
+
+.peli1{
+	float: left;
+	margin: 5px;
+	background-image: url("../img/peli1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+}
+
+.peli2{
+	float: left;
+	margin: 5px;
+	background-image: url("../img/peli2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.peli3{
+	float: left;
+	margin: 5px;
+	background-image: url("../img/peli3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+}
+
+footer{
+	height: 50px;
+	width: 100%;
+	background: #FFC107;
+	margin-bottom: 1px;
+	border: 1px black solid;
+}
