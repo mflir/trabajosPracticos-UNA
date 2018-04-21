@@ -7,23 +7,32 @@ body{
 	margin-right: 10%;
 	width: 80%;
 	text-align: center;
+	background-image: url("../img/body.png"); 
 }
 header{
-	height: 300px;
+	height: 400px;
 	width: 100%;
 	/*background-color: #BBDEFB;*/
 	background-image: url("../img/LG5.png");
 	background-repeat: no-repeat;
 	border: 1px black solid;
-	margin-bottom: 1px;
+	margin-bottom: 5px;
+}
+
+header h1{
+	font-size: 60px;
+	padding: 200px;
 }
 
 nav{
 	height: 50px;
 	width: 100%;
 	border: 1px black solid;
-	background-color: #FFE082;
-	margin-bottom: 1px;
+	background-color: #FFAB00;
+	margin-bottom: 5px;
+	text-align: center;
+	padding-right: 300px;
+	padding-top: 8px;
 }
 
 .navUno{
@@ -40,8 +49,8 @@ a{
 article{
 	height: 450px;
 	width: 100%;
-	background: #FFD54F;
-	margin-bottom: 1px;
+	background-color: #FFAB00;
+	margin-bottom: 5px;
 	border: 1px black solid;
 }
 
@@ -62,8 +71,8 @@ article{
 section{
 	height: 450px;
 	width: 100%;
-	background: #FFCA28;
-	margin-bottom: 1px;
+	background: #FFAB00;
+	margin-bottom: 5px;
 	border: 1px black solid;
 }
 
@@ -101,7 +110,7 @@ section{
 footer{
 	height: 50px;
 	width: 100%;
-	background: #FFC107;
-	margin-bottom: 1px;
+	background: #FFAB00;
+	margin-bottom: 5px;
 	border: 1px black solid;
 }
