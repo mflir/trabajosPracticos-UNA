@@ -69,11 +69,15 @@ article{
 }
 
 section{
-	height: 450px;
+	height: 800px;
 	width: 100%;
 	background: #FFAB00;
 	margin-bottom: 5px;
 	border: 1px black solid;
+}
+
+.hola1{
+	height: 1150px;
 }
 
 .peli{
