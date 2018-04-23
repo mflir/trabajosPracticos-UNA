@@ -7,18 +7,55 @@ body{
 	margin-right: 10%;
 	width: 80%;
 	text-align: center;
-	background-image: url("../img/body.png"); 
+	background-image: url("../img/flamingo.png"); 
+	font-family: 'Anaheim', sans-serif;
 }
+
 header{
-	height: 400px;
+	height: 550px;
 	width: 100%;
-	/*background-color: #BBDEFB;*/
-	background-image: url("../img/LG5.png");
+	background-image: url("../img/wa2.png");
 	background-repeat: no-repeat;
 	border: 1px black solid;
 	margin-bottom: 5px;
+	background-size: 100%;
 }
 
+.homeDos{
+	height: 400px;
+	width: 100%;
+	background-image: url("../img/bannerT.jpg");
+	background-repeat: no-repeat;
+	border: 1px black solid;
+	margin-bottom: 5px;
+	background-size: 100%;
+}
+
+.homeUno{
+	height: 500px;
+	width: 100%;
+	background-image: url("../img/bannerM.JPG");
+	background-repeat: no-repeat;
+	border: 1px black solid;
+	margin-bottom: 5px;
+	background-size: 100%;
+}
+
+.homeTres{
+	height: 500px;
+	width: 100%;
+	background-image: url("../img/bannerG.jpeg");
+	background-repeat: no-repeat;
+	border: 1px black solid;
+	margin-bottom: 5px;
+	background-size: 100%;
+}
+
+
+
+ul{
+	display: inline-block;
+}
 header h1{
 	font-size: 60px;
 	padding: 200px;
@@ -26,13 +63,11 @@ header h1{
 
 nav{
 	height: 50px;
-	width: 100%;
 	border: 1px black solid;
-	background-color: #FFAB00;
 	margin-bottom: 5px;
 	text-align: center;
-	padding-right: 300px;
-	padding-top: 8px;
+	width: 100%; 
+	padding-right: 75px;
 }
 
 .navUno{
@@ -44,12 +79,12 @@ nav{
 
 a{
 	text-decoration: none;
+	font-size: 30px; 
 }
 
 article{
-	height: 450px;
+	height: 400px;
 	width: 100%;
-	background-color: #FFAB00;
 	margin-bottom: 5px;
 	border: 1px black solid;
 }
@@ -69,9 +104,8 @@ article{
 }
 
 section{
-	height: 800px;
+	height: 1000px;
 	width: 100%;
-	background: #FFAB00;
 	margin-bottom: 5px;
 	border: 1px black solid;
 }
@@ -82,7 +116,7 @@ section{
 
 .peli{
 	width: 32%;
-	height: 345px;
+	height: 445px;
 	background-color: pink;
 	border: 1px black solid;
 }
@@ -90,7 +124,7 @@ section{
 .peli1{
 	float: left;
 	margin: 5px;
-	background-image: url("../img/peli1.jpg");
+	background-image: url("../img/peli_doce.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%; 
 }
@@ -98,7 +132,7 @@ section{
 .peli2{
 	float: left;
 	margin: 5px;
-	background-image: url("../img/peli2.jpg");
+	background-image: url("../img/peli_once.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -106,15 +140,48 @@ section{
 .peli3{
 	float: left;
 	margin: 5px;
-	background-image: url("../img/peli3.jpg");
+	background-image: url("../img/peli_diez.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%; 
 }
 
+.peli4{
+	float: left;
+	margin: 5px;
+	background-image: url("../img/peli_nueve.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+}
+
+.peli5{
+	float: left;
+	margin: 5px;
+	background-image: url("../img/peli_ocho.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.peli6{
+	float: left;
+	margin: 5px;
+	background-image: url("../img/peli_trece.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+}
+
+
+
 footer{
 	height: 50px;
 	width: 100%;
-	background: #FFAB00;
 	margin-bottom: 5px;
 	border: 1px black solid;
+}
+
+.biografia{
+	background-color: #F0F4C3:
+	border: 1px black solid; 
+	margin-top: 30px;
+	height: 50px;
+	width: 100%
 }
