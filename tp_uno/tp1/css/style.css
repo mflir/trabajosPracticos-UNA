@@ -52,15 +52,6 @@ header{
 }
 
 
-
-ul{
-	display: inline-block;
-}
-header h1{
-	font-size: 60px;
-	padding: 200px;
-}
-
 nav{
 	height: 50px;
 	border: 1px black solid;
