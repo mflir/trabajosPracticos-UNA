@@ -5,7 +5,7 @@
 body{
 	margin-left: 10%;
 	margin-right: 10%;
-	width: 80%;
+	max-width: 80%;
 	text-align: center;
 	background-image: url("../img/flamingo.png"); 
 	font-family: 'Anaheim', sans-serif;
