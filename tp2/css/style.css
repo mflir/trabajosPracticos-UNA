@@ -41,8 +41,9 @@ height: 40px;
 }
 
 a{
-	margin: auto;
-	text-align: center;
+text-decoration: none;
+font-size: 15px;
+text-align: center;
 }
 
 .director{
