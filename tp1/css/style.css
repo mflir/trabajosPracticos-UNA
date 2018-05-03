@@ -1,178 +1,161 @@
 *{
-	box-sizing: border-box;
+box-sizing: border-box;
 }
-
 body{
-	margin-left: 10%;
-	margin-right: 10%;
-	max-width: 80%;
-	text-align: center;
-	background-image: url("../img/flamingo.png"); 
-	font-family: 'Anaheim', sans-serif;
+margin-left: 10%;
+margin-right: 10%;
+max-width: 80%;
+text-align: center;
+background-image: url("../img/flamingo.png");
+font-family: 'Anaheim', sans-serif;
 }
-
 header{
-	height: 550px;
-	width: 100%;
-	background-image: url("../img/wa2.png");
-	background-repeat: no-repeat;
-	border: 1px black solid;
-	margin-bottom: 5px;
-	background-size: 100%;
+height: 545px;
+width: 100%;
+background-image: url("../img/wa2.png");
+background-repeat: no-repeat;
+border: 1px black solid;
+margin-bottom: 5px;
+background-size: 100%;
 }
-
 .homeDos{
-	height: 400px;
-	width: 100%;
-	background-image: url("../img/bannerT.jpg");
-	background-repeat: no-repeat;
-	border: 1px black solid;
-	margin-bottom: 5px;
-	background-size: 100%;
+height: 400px;
+width: 100%;
+background-image: url("../img/bannerT.jpg");
+background-repeat: no-repeat;
+border: 1px black solid;
+margin-bottom: 5px;
+background-size: 100%;
 }
-
 .homeUno{
-	height: 500px;
-	width: 100%;
-	background-image: url("../img/bannerM.JPG");
-	background-repeat: no-repeat;
-	border: 1px black solid;
-	margin-bottom: 5px;
-	background-size: 100%;
+height: 500px;
+width: 100%;
+background-image: url("../img/bannerM.JPG");
+background-repeat: no-repeat;
+border: 1px black solid;
+margin-bottom: 5px;
+background-size: 100%;
 }
-
 .homeTres{
-	height: 500px;
-	width: 100%;
-	background-image: url("../img/bannerG.jpeg");
-	background-repeat: no-repeat;
-	border: 1px black solid;
-	margin-bottom: 5px;
-	background-size: 100%;
+height: 500px;
+width: 100%;
+background-image: url("../img/bannerG.jpeg");
+background-repeat: no-repeat;
+border: 1px black solid;
+margin-bottom: 5px;
+background-size: 100%;
 }
-
-
 nav{
-	height: 50px;
-	border: 1px black solid;
-	margin-bottom: 5px;
-	text-align: center;
-	width: 100%; 
-	padding-right: 75px;
+height: 50px;
+border: 1px black solid;
+margin-bottom: 5px;
+text-align: center;
+width: 100%;
+padding-right: 75px;
+background-color: #ff6138;
 }
-
 .navUno{
-	float: right;
-	margin: 5px;
-	padding: 5px;
-	height: 40px;
+float: right;
+margin: 5px;
+padding: 5px;
+height: 40px;
 }
-
 a{
-	text-decoration: none;
-	font-size: 30px; 
+text-decoration: none;
+font-size: 10px;
+text-align: center;
 }
-
 article{
-	height: 400px;
-	width: 100%;
-	margin-bottom: 5px;
-	border: 1px black solid;
+height: 400px;
+width: 100%;
+margin-bottom: 5px;
+border: 1px black solid;
+background-color: #ffff9d;
 }
-
 .contenido{
-	margin: 30px;
+margin: 30px;
 }
-
 .biografia{
-	padding:10px;
-	margin: 20px;
-	text-align: left; 
+padding:10px;
+margin: 20px;
+text-align: left;
 }
 .retrato{
-	float: left;
-	padding: 5px;
+float: left;
+padding: 5px;
 }
-
 section{
-	height: 1000px;
-	width: 100%;
-	margin-bottom: 5px;
-	border: 1px black solid;
+height: 1000px;
+width: 100%;
+margin-bottom: 5px;
+border: 1px black solid;
+background-color: #beeb9f;
 }
-
 .hola1{
-	height: 1150px;
+height: 1150px;
 }
-
 .peli{
-	width: 32%;
-	height: 445px;
-	background-color: pink;
-	border: 1px black solid;
+width: 32%;
+height: 435px;
+border: 1px black solid;
 }
-
 .peli1{
-	float: left;
-	margin: 5px;
-	background-image: url("../img/peli_doce.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%; 
+float: left;
+margin: 5px;
+background-image: url("../img/peli_doce.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
 }
-
 .peli2{
-	float: left;
-	margin: 5px;
-	background-image: url("../img/peli_once.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
+float: left;
+margin: 5px;
+background-image: url("../img/peli_once.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
 }
-
 .peli3{
-	float: left;
-	margin: 5px;
-	background-image: url("../img/peli_diez.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%; 
+float: left;
+margin: 5px;
+background-image: url("../img/peli_diez.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
 }
-
 .peli4{
-	float: left;
-	margin: 5px;
-	background-image: url("../img/peli_nueve.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%; 
+float: left;
+margin: 5px;
+background-image: url("../img/peli_nueve.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
 }
-
 .peli5{
-	float: left;
-	margin: 5px;
-	background-image: url("../img/peli_ocho.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
+float: left;
+margin: 5px;
+background-image: url("../img/peli_ocho.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
 }
-
 .peli6{
-	float: left;
-	margin: 5px;
-	background-image: url("../img/peli_trece.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%; 
+float: left;
+margin: 5px;
+background-image: url("../img/peli_trece.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
 }
-
-
-
 footer{
-	height: 50px;
-	width: 100%;
-	margin-bottom: 5px;
-	border: 1px black solid;
+height: 50px;
+width: 100%;
+margin-bottom: 5px;
+border: 1px black solid;
+background-color: #79bd8f;
 }
-
 .biografia{
-	background-color: #F0F4C3:
-	border: 1px black solid; 
-	margin-top: 30px;
-	height: 50px;
-	width: 100%
+background-color: #F0F4C3:
+border: 1px black solid;
+margin-top: 30px;
+height: 50px;
+width: 100%
+}
+.container{
+background-color: white;
+border: 10px solid white;
 }

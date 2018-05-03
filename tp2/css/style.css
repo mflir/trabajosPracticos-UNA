@@ -5,26 +5,39 @@
 
 body{
 	background-color: pink;
+	background-image:  url('../img/flamingo.png');
+	font-family: 'Anaheim', sans-serif;
 }
 
 .container{
-	width: 90%;
+	width: 80%;
 	background-color: white;
 	border: 20px solid white;
 }
 
 .encabezado{
 	width: 100%;
-	height: 300px;
-	background-color:  #bfc9ca ;
+	height: 500px;
+	background-image: url('../img/banner1.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 nav{
 	width: 100%;
 	height: 50px;
-	background-color:  #bfc9ca ;
+	background-color: #ff6138;
 	margin-top: 10px;
 	margin-bottom: 20px;
+text-align: center;
+padding-right: 75px;
+
+}
+.navUno{
+float: right;
+margin: 5px;
+padding: 5px;
+height: 40px;
 }
 
 a{
@@ -34,27 +47,38 @@ a{
 
 .director{
 	border:  #bfc9ca  solid 10px;
-	height: 220px;
+	height: 250px;
 }
+
 
 .nombre{
 	width: 100%;
 	height: 50px;
-	background-color: grey;
+	background-color: #ffff9d;
 	border-bottom:  #bfc9ca  solid 10px;
+	text-align: center;
+}
+
+h1{
+	padding-top: 3px;
 }
 
 .info{
-	width: 70%;
-	height: 150px;
-	background-color: grey;
+	width: 69%;
+	height: 180px;
+	background-color: #ffff9d;
 	border-right:  #bfc9ca  solid 10px;
 	float: left;
 }
 
 .foto{
-	background-color: grey;
-	height: 150px;
+	background-color: #bfc9ca ;
+	height: 180px;
+}
+
+.img-dir{
+	width: 314px;
+	height: 180px;
 }
 
 .peliculas{
@@ -63,8 +87,8 @@ a{
 }
 
 .pelis {
- 	height: 300px;
-  	background-color: #bfc9ca;    /* Yellow */
+ 	height: 400px;
+  	background-color: #beeb9f;
 	width: 32%;
 	display: inline-block;
 }
@@ -72,6 +96,11 @@ a{
 .uno{
 	float: left;
 	margin-right: 19px;
+}
+
+.img-peli{
+	width: 312px;
+	height: 150px;
 }
 
 .foto1{
@@ -82,7 +111,7 @@ a{
 
 .texto1{
 	margin: 10px;
-	height: 150px;
+	height: 200px;
 }
 
 .foto2{
@@ -93,7 +122,7 @@ a{
 
 .texto2{
 	margin: 10px;
-	height: 150px;
+	height: 200px;
 }
 
 .foto3{
@@ -104,7 +133,7 @@ a{
 
 .texto3{
 	margin: 10px;
-	height: 150px;
+	height: 200px;
 }
 
 .dos{
@@ -118,6 +147,6 @@ a{
 
 footer{
 	width: 100%;
-	background-color: #bfc9ca;
+	background-color: #79bd8f;
 	height: 100px;
 }
