@@ -45,6 +45,17 @@ text-decoration: none;
 font-size: 15px;
 text-align: center;
 }
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    font: blue;
+}
+
+a:hover{
+	 background-color: white;
+}
 
 .director{
 	border:   #f7dc6f solid 10px;
