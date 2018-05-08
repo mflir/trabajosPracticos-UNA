@@ -1,0 +1,111 @@
+*{
+	margin: auto;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: orange;
+}
+
+.container{
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header{
+	background-image: url("../img/sol.png"); 
+	padding:10px;
+}
+
+nav{
+	background-color: red;
+	padding: 10px;
+}
+
+h2{
+	color: white;
+}
+
+menu{
+	background-color: white;
+	border-bottom: 5px solid red; 
+	padding: 10px;
+}
+
+ul{
+	padding: 0px;
+}
+
+li{
+	display: inline;
+}
+
+li a {
+	color: black;
+}
+
+article{
+	width: 60%;
+	float:left;
+	height: 350px;
+	background-color: white;
+}
+
+section{
+	background-color: white;
+	padding: 20px;
+
+}
+
+.uno{
+	height: 120px;
+		border-bottom: 3px solid red;
+}
+
+address{
+	font-style: italic;
+	color: white;
+}
+
+.dos{
+	height: 150px;
+		border-bottom: 3px solid red;
+}
+
+aside{
+	background-color: yellow;
+	float: left;
+	width: 40%;
+	height: 350px;
+	padding: 10px;
+	text-align: center;
+}
+
+.imagen{
+	float: left;
+	width: 50%;
+}
+
+.texto{
+	float: left;
+	width: 50%;
+}
+
+footer{
+	clear: both;
+	background-color: red;
+	text-align: center;
+	height: 35px;
+	padding:10px;
+}
+
+
+
+footer a{
+	color: white;
+}
+
+p{
+	font-size: 12px;
+}
