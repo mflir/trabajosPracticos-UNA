@@ -24,7 +24,7 @@ bottom: 0;
 width: 100%;
 text-align: center;
 }
-.alumno{
+.container{
 text-align: center;
 margin-top: 100px;
 }
@@ -41,4 +41,8 @@ p{
 font-size: 15px;
 color: white;
 font-style: bold;
+}
+
+ul{
+	display: flex;
 }

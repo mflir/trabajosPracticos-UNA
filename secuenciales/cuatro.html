@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>dos</title>
+</head>
+<body>
+<h1>Hacer un programa que pida al usuario un número de dos dígitos y calcule la
+suma de esos dos dígitos. Escribir el resultado en la página.</h1>
+<p id="resultado">el resultado de la suma es: </p>
+
+<p>
+	<script>
+		var numero; 
+		var suma; 
+		numero = Number(prompt('Ingrese un número de dos dígitos',''));
+		var digito2 = numero % 10; 
+		var  digito1 = (numero - digito2) / 10;
+		  suma = digito1 + digito2; 
+		 var texto = document.getElementById('resultado').innerHTML; 
+		  document.getElementById('resultado').innerHTML = texto + suma; 
+	</script>
+</p>
+	
+</body>
+</html>
