@@ -1,0 +1,44 @@
+*{
+margin: auto;
+box-sizing: border-box;
+padding: 0px;
+}
+body {
+margin: 0px auto;
+padding: 0px;
+font-family: sans-serif;
+background-color:  #7dcea0;
+}
+img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: solid #82e0aa 10px;
+margin: 5px;
+}
+nav{
+background-color: #82e0aa;
+padding: 20px;
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+}
+.alumno{
+text-align: center;
+margin-top: 100px;
+}
+a , li{
+text-decoration: none;
+color: white;
+display: inline;
+}
+h3{
+font-size: 20px;
+color: white;
+}
+p{
+font-size: 15px;
+color: white;
+font-style: bold;
+}
