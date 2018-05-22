@@ -9,13 +9,13 @@ body{
 
 .container{
 	width: 80%;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-bottom: 20px;
 }
 
 header{
 	background-image: url("../img/sol.png"); 
-	padding:10px;
+	padding:8px;
 }
 
 nav{
@@ -84,12 +84,13 @@ aside{
 
 .imagen{
 	float: left;
-	width: 50%;
+	width: 40%;
 }
 
 .texto{
 	float: left;
-	width: 50%;
+	width: 60%;
+	padding: 10px;
 }
 
 footer{
