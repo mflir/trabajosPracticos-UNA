@@ -46,3 +46,26 @@ font-style: bold;
 ul{
 	display: flex;
 }
+
+#ninos, .m, .boton, h4 ,h2{
+	margin:10px;
+}
+
+.i{
+	display: inline-block;
+}
+
+.bloques{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.bloque{
+	display: inline-block;
+	margin: 10px;
+	height: 100px;
+}
+
+.b{
+	margin-top: 45px;
+}

@@ -1,31 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Ejercicio uno</title>
-	<link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
- <div class="container"> 
-<h3>Ingrese los precios de 3 productos que haya comprado: </h3>
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio uno</title>
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h2>Ingrese los precios de 3 productos que haya comprado: </h2>
 
-<p class="p">Primera Compra: </p><input id="precioUno" type="text" placeholder="Precio uno"> <br>
-<p class="p">Segunda Compra: </p><input id="precioDos" type="text" placeholder="precio dos"> <br>
-<p class="p">Tercera Compra: </p><input id="PrecioTres" type="text" placeholder="precio tres">
+				<p class="m">Ingrese el valor del primer producto: </p>
+				<input id="valor1" placeholder="$"> 
+				<p class="m">Ingrese el valor del segundo producto: </p>
+				<input id="valor2" placeholder="$"> 
+				<p class="m">Ingrese el valor del tercer producto: </p>
+				<input id="valor3" placeholder="$"> <br>
+			
+			<input class="boton" type="button" value="Total" onclick="suma()">
+
+			<p id="escribirTotal"></p>
+
+			<h4>Elija el medio de pago: </h4>
+
+			<input class="boton" type="button" value="en Efectivo" onclick="efectivo()">
+			<input class="boton" type="button" value="con Tarjeta" onclick="tarjeta()">
+			<input class="boton" type="button" value="en Cuotas" onclick="cuotas()">
 
 
-<div class="boton">
-	<button id="enviar"> Enviar </button>
-</div>
-<p id="ResutadoUno1">Pago en efectivo (con 10% de descuento): </p>
-<p id="ResultadoDos1">Pago con tarjeta (con 20% de descuento):</p>
-</div>
-	<nav>
-	<ul>
-		<li><a href="../index.html">Home</a></li>
-		<li><a href="dos.html">Ejercicio dos</a></li>
-		<li><a href="tres.html">Ejercicio tres</a></li>
-	</ul>
-</nav>
-</body>
+
+			<p id="escribirTotal"></p>
+			<p id="escribirEfectivo"></p>
+			<p id="escribirTarjeta"></p>
+			<p id="escribirCuotas"></p>
+
+
+			<script>
+	
+
+			function suma(){
+				var valor1 = parseInt(document.getElementById('valor1').value);
+				var valor2 = parseInt(document.getElementById('valor2').value);
+				var valor3 = parseInt(document.getElementById('valor3').value);
+				var total = valor1 + valor2 + valor3;
+				var totalEntero = total.toFixed(2);
+				document.getElementById("escribirTotal").innerHTML = "El total de la compra es: $" + totalEntero;
+			};
+			function efectivo(){
+				var valor1 = parseInt(document.getElementById('valor1').value);
+				var valor2 = parseInt(document.getElementById('valor2').value);
+				var valor3 = parseInt(document.getElementById('valor3').value);
+				var total = valor1 + valor2 + valor3;
+				var totalEfectivo = total * 0.9;
+				var totalEfectivoEntero = totalEfectivo.toFixed(2);
+				document.getElementById("escribirEfectivo").innerHTML = "El total en efectivo es: $" + totalEfectivoEntero;
+			};
+			function tarjeta(){
+				var valor1 = parseInt(document.getElementById('valor1').value);
+				var valor2 = parseInt(document.getElementById('valor2').value);
+				var valor3 = parseInt(document.getElementById('valor3').value);
+				var total = valor1 + valor2 + valor3;
+				var totalTarjeta = total * 1.20;
+				var totalTarjetaEntero = totalTarjeta.toFixed(2);
+				document.getElementById("escribirTarjeta").innerHTML = "El total con tarjeta es: $" + totalTarjetaEntero;
+			};
+			function cuotas(){
+				var valor1 = parseInt(document.getElementById('valor1').value);
+				var valor2 = parseInt(document.getElementById('valor2').value);
+				var valor3 = parseInt(document.getElementById('valor3').value);
+				var total = valor1 + valor2 + valor3;
+				var totalTarjeta = total * 1.20;
+				var totalCuotas = totalTarjeta * 1.10;
+				var totalCuotasEntero = totalCuotas.toFixed(2);
+				document.getElementById("escribirCuotas").innerHTML = "El total en cuotas es: $" + totalCuotasEntero;
+			};
+			
+			</script>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="dos.html">Ejercicio dos</a></li>
+				<li><a href="tres.html">Ejercicio tres</a></li>
+			</ul>
+		</nav>
+	</body>
 </html>

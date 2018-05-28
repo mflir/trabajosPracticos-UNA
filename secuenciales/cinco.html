@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>holi</title>
+</head>
+<body>
+	<h1>Hacer un programa que pida al usuario su nombre y dos colores. Escribir en la pagina un mensaje que incluya el nombre del usuario utilizando un color para el texto y otro para el fondo. Agregar un evento que intercambie los colores.</h1>
+	<p id="mensaje"></p>
+	<p>
+		<script>
+			var nombre; 
+			var color1; 
+			var color2; 
+			nombre = prompt('Ingrese su nombre',''); 
+			color1 = prompt('Ingrese un color',''); 
+			color2 = prompt('Ingrese otro color',''); 
+			texto = document.getElementById('mensaje').innerHTML; 
+			document.getElementById('mensaje').innerHTML = texto + nombre; 
+			document.getElementById('mensaje').style.color = color1; 
+			document.getElementById('mensaje').style.backgroundColor = color2; 
+		</script>
+	</p>
+</body>
+</html>

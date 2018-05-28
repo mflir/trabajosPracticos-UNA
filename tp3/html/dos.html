@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio dos</title>
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h2>Ingrese la cantidad de niños que asistiran al cumpleaños: </h2>
+			<input id="ninos" placeholder=" Cantidad de niños"> <br>
+			
+			<input class="boton" type="button" value="Calcular Caramelos" onclick="calcular()"> <br>
+			<p id="escribirCaramelos"></p>
+			<input class="boton" type="button" value="Calcular Bolsas" onclick="bolsas()"> <br>
+			<p id="escribirBolsas"></p>
+			<input class="boton" type="button" value="Calcular Sobras" onclick="sobras()"> <br>
+			<p id="escribirSobras"></p>
+			<script>
+				var ninos = parseInt(document.getElementById('ninos').value);
+				var caramelos = ninos * 8;
+				var sobras;
+				var bolsas;
+				var bolsasEntero;
+			function calcular(){
+								var ninos = parseInt(document.getElementById('ninos').value);
+				var caramelos = ninos * 8;
+			document.getElementById("escribirCaramelos").innerHTML = "Cantidad de caramelos: " + caramelos;
+			};
+									
+			function bolsas(){
+				if(caramelos>=150){
+				bolsas = caramelos / 150;
+				bolsasEntero = Math.ceil(bolsas);
+				document.getElementById("escribirBolsas").innerHTML = "Cantidad de bolsas: " + bolsasEntero;
+			}else{
+				bolsasEntero = 1;
+					document.getElementById("escribirBolsas").innerHTML = "Cantidad de bolsas: " + bolsasEntero;
+			}
+			};
+			function sobras(){
+												var ninos = parseInt(document.getElementById('ninos').value);
+				var caramelos = ninos * 8;
+			var cantidad = bolsasEntero * 150;
+			sobras = cantidad - caramelos;
+			if (sobras>0) {
+			document.getElementById("escribirSobras").innerHTML = "Caramelos que sobran: " + sobras;
+			} else{
+			document.getElementById("escribirSobras").innerHTML = "No sobran caramelos";
+			}
+			};
+			</script>
+			<nav>
+				<ul>
+					
+					<li><a href="uno.html">Ejercicio uno</a></li>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="tres.html">Ejercicio tres</a></li>
+				</ul>
+			</nav>
+		</body>
+	</html>
