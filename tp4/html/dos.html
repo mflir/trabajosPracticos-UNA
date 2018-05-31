@@ -14,50 +14,42 @@
 			<input class="m" id="pancho" placeholder="calorias"> <br>
 			<p>Pan de hamburguesa</p>
 			<input class="m" id="hamburguesa" placeholder="calorias"> <br>
-
-			<input class="boton i" type="button" value="mas calorias" onclick="mas()"> <br>
-			<input class="boton i" type="button" value="menos calorias" onclick="menos()"> <br>
-
-			<p id="resultado"></p>
+			<input class="boton" type="button" value="mas calorias" onclick="mas()">
+			
+			<input class="boton" type="button" value="menos calorias" onclick="menos()"> <br>
+			<img id="imagen" src="../img/signo.png"> 
 			<script>
-
 
 			function mas(){
 				var valor1 = parseInt(document.getElementById('lactal').value);
 				var valor2 = parseInt(document.getElementById('pancho').value);
 				var valor3 = parseInt(document.getElementById('hamburguesa').value);
-				var parrafoMas = "El ingrediente con mas calorias es: ";;
 
-		if(valor1 > valor2 && valor1 > valor3){ 
-				document.getElementById("resultado").innerHTML = parrafoMas + valor1;
-
+			if(valor1 > valor2 && valor1 > valor3){
+				document.getElementById("imagen").src = "../img/lactal.jpg";
+;
 			} else if(valor2 > valor1 && valor2 > valor3){
-							document.getElementById("resultado").innerHTML = parrafoMas + valor2;
+							document.getElementById("imagen").src = "../img/pancho.jpg";
 						
 						}else if (valor3 > valor1 && valor3 > valor2){
-							document.getElementById("resultado").innerHTML = parrafoMas + valor3;
+							document.getElementById("imagen").src = "../img/hamburguesa.jpg";
 			}
-		};
 
-
+			};
 
 			function menos(){
 				var valor1 = parseInt(document.getElementById('lactal').value);
 				var valor2 = parseInt(document.getElementById('pancho').value);
 				var valor3 = parseInt(document.getElementById('hamburguesa').value);
-				var parrafoMenos = "El ingrediente con menos calorias es: ";
-
-		if(valor1 < valor2 && valor1 < valor3){ 
-				document.getElementById("resultado").innerHTML = parrafoMenos + valor1 ;
-
+	
+			if(valor1 < valor2 && valor1 < valor3){
+				document.getElementById("imagen").src = "../img/lactal.jpg";
 			} else if(valor2 < valor1 && valor2 < valor3){
-							document.getElementById("resultado").innerHTML = parrafoMenos + valor2;
-						
+							document.getElementById("imagen").src = "../img/pancho.jpg"
 						}else if (valor3 < valor1 && valor3 < valor2){
-							document.getElementById("resultado").innerHTML = parrafoMenos + valor3;
-			}
-		};
-
+							document.getElementById("imagen").src = "../img/hamburguesa.jpg";
+				}
+			};
 			</script>
 			<nav>
 				<ul>
