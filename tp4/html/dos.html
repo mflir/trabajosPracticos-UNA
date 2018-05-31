@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio dos</title>
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h2>Ingrese la cantidad de caloria de los siguientes elementos: </h2>
+			<p>Pan lactal</p>
+			<input class="m" id="lactal" placeholder="calorias"> <br>
+			<p>Pan de pancho</p>
+			<input class="m" id="pancho" placeholder="calorias"> <br>
+			<p>Pan de hamburguesa</p>
+			<input class="m" id="hamburguesa" placeholder="calorias"> <br>
+
+			<input class="boton i" type="button" value="mas calorias" onclick="mas()"> <br>
+			<input class="boton i" type="button" value="menos calorias" onclick="menos()"> <br>
+
+			<p id="resultado"></p>
+			<script>
+
+
+			function mas(){
+				var valor1 = parseInt(document.getElementById('lactal').value);
+				var valor2 = parseInt(document.getElementById('pancho').value);
+				var valor3 = parseInt(document.getElementById('hamburguesa').value);
+				var parrafoMas = "El ingrediente con mas calorias es: ";;
+
+		if(valor1 > valor2 && valor1 > valor3){ 
+				document.getElementById("resultado").innerHTML = parrafoMas + valor1;
+
+			} else if(valor2 > valor1 && valor2 > valor3){
+							document.getElementById("resultado").innerHTML = parrafoMas + valor2;
+						
+						}else if (valor3 > valor1 && valor3 > valor2){
+							document.getElementById("resultado").innerHTML = parrafoMas + valor3;
+			}
+		};
+
+
+
+			function menos(){
+				var valor1 = parseInt(document.getElementById('lactal').value);
+				var valor2 = parseInt(document.getElementById('pancho').value);
+				var valor3 = parseInt(document.getElementById('hamburguesa').value);
+				var parrafoMenos = "El ingrediente con menos calorias es: ";
+
+		if(valor1 < valor2 && valor1 < valor3){ 
+				document.getElementById("resultado").innerHTML = parrafoMenos + valor1 ;
+
+			} else if(valor2 < valor1 && valor2 < valor3){
+							document.getElementById("resultado").innerHTML = parrafoMenos + valor2;
+						
+						}else if (valor3 < valor1 && valor3 < valor2){
+							document.getElementById("resultado").innerHTML = parrafoMenos + valor3;
+			}
+		};
+
+			</script>
+			<nav>
+				<ul>
+					
+					<li><a href="uno.html">Ejercicio uno</a></li>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="tres.html">Ejercicio tres</a></li>
+				</ul>
+			</nav>
+		</body>
+	</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio uno</title>
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h2>Ingrese dos numeros diferentes: </h2>
+			<p class="m">Primer numero: </p>
+			<input id="valor1" placeholder="">
+			<p class="m">Segundo numero: </p>
+			<input id="valor2" placeholder=""> <br>
+			<input class="boton" type="button" value="Enviar" onclick="validar()">
+			<p id="resultado"></p>
+			<script>
+			
+			function validar(){
+				var numero1 = parseInt(document.getElementById('valor1').value);
+				var numero2 = parseInt(document.getElementById('valor2').value);
+			if(isNaN(numero1)){ 
+				document.getElementById("resultado").innerHTML = "ERROR! El valor ingresado no es un numero.";
+			} else if(numero1%2===0){
+			var resultadoCuadrado = numero2 * numero2 ;
+							document.getElementById("resultado").innerHTML = "El primer numero ingresado es par. Se calculo el cuadrado del segundo numero y el resultado obtenido fue: " + resultadoCuadrado;
+						}else{
+			var resultadoProducto = numero1 * numero2;
+							document.getElementById("resultado").innerHTML = "El primer numero ingresado es impar. Se calculo el producto de los dos numeros y el resultado fue : " + resultadoProducto;
+					
+					
+						};
+					};
+
+			
+			</script>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="dos.html">Ejercicio dos</a></li>
+				<li><a href="tres.html">Ejercicio tres</a></li>
+			</ul>
+		</nav>
+	</body>
+</html>

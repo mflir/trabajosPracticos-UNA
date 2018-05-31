@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio tres</title>
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h2>Ingrese 2 numeros y 2 colores respectivamente: </h2>
+			<p class="m i">Ingrese el primer numero: </p>
+			<input id="numero1" placeholder="numero 1"> <br>
+			<p class="m i">Ingrese el segundo numero: </p>
+			<input id="numero2" placeholder="numero2 "> <br>
+			<p class="m i">Ingrese el primer color: </p>
+			<input id="color1" placeholder="color 1 en ingles"> <br>
+			<p class="m i">Ingrese el segundo color: </p>
+			<input id="color2" placeholder="color 2 en ingles"><br>
+						<input class="boton" type="button" value="Enviar" onclick="enviar()">
+						<input class="boton" type="button" value="Cambiar" onclick="cambiar()">
+
+			<div class="bloques">
+				<div id="bloque1" class="bloque">
+					<p class="b" id="mostrar1"></p>
+				</div>
+				<div id="bloque2" class="bloque" >
+					<p class="b" id="mostrar2"></p>
+				</div>
+			</div>
+
+			<script>
+			function enviar(){
+							var numero1 = parseInt(document.getElementById('numero1').value);
+			var numero2 = parseInt(document.getElementById('numero2').value);
+			var color1 = document.getElementById('color1').value;
+			var color2 = document.getElementById('color2').value;
+			document.getElementById('mostrar1').innerHTML = numero1;
+			document.getElementById('bloque1').style.backgroundColor = color1;
+			document.getElementById('bloque1').style.width = numero1 + "%";
+			document.getElementById('mostrar2').innerHTML = numero2;
+			document.getElementById('bloque2').style.backgroundColor = color2;
+			document.getElementById('bloque2').style.width = numero2 + "%";
+			};
+
+			function cambiar(){
+							var numero1 = parseInt(document.getElementById('numero1').value);
+			var numero2 = parseInt(document.getElementById('numero2').value);
+			var color1 = document.getElementById('color1').value;
+			var color2 = document.getElementById('color2').value;
+				document.getElementById('bloque1').style.backgroundColor = color2;
+				document.getElementById('bloque2').style.backgroundColor = color1;
+
+			}
+			</script>
+			<nav>
+				<ul>
+					
+					<li><a href="uno.html">Ejercicio uno</a></li>
+					
+					<li><a href="dos.html">Ejercicio dos</a></li>
+					<li><a href="../index.html">Home</a></li>
+				</ul>
+			</nav>
+		</body>
+	</html>
