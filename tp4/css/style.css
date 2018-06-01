@@ -63,10 +63,13 @@ ul{
 .bloque{
 	display: inline-block;
 	margin: 10px;
-	height: 100px;
+	height: 75px;
 }
 
 .b{
 	margin-top: 45px;
 }
 
+.e{
+	margin: 5px;
+}
